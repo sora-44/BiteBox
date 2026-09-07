@@ -1,34 +1,43 @@
 # BiteBox
 
-A modern food delivery and restaurant landing page designed as a learning project. BiteBox showcases an online food brand with sections for home, menu, about, and contact information, and is structured to grow into a more advanced web application over time.
+BiteBox is a static restaurant and food-delivery landing page built as a front-end learning project. It includes multiple HTML pages for navigation, branding, and a food menu presentation, with a cleaner structure and improved formatting applied in the latest updates.
 
 ## Overview
 
-BiteBox is a static web project built with HTML and CSS/JavaScript to simulate a restaurant or food ordering experience. The project focuses on layout, branding, user interface design, and page navigation while serving as a foundation for future features such as online ordering, product filtering, a shopping cart, and backend integration.
+This project is designed to practice front-end web development using HTML and simple web page structure. It focuses on layout, visual hierarchy, navigation, and content styling while simulating a modern food brand experience.
 
-## Project Status
+## Current Project Status
 
 - Status: Learning project
 - Stage: Early development
-- Goal: Practice front-end design, structure, and responsive webpage development
-- Future scope: Enhanced UI, dynamic menu, user interactions, booking/order flow, and backend connectivity
+- Goal: Practice semantic HTML, page layout, and static website design
+- Current focus: Better page formatting and complete menu content
+
+## Recent Updates
+
+The latest commits reflect these improvements:
+
+- Improved formatting and structure on the home page
+- Added a dedicated menu page with food categories and pricing
+- Refined navigation and content organization across pages
+- Updated the project documentation to match the actual site structure
 
 ## Features
 
-- Clean restaurant-style landing page
+- Restaurant-style landing page
 - Navigation links across multiple pages
-- About and brand storytelling section
+- About, story, and brand sections
 - Featured dishes and promotional content
-- Contact details and business information
-- Opening hours section
-- Mobile-friendly static layout structure
+- Dedicated menu page with pricing and categories
+- Contact information and opening hours
+- Clean static layout suitable for learning and extension
 
 ## Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript
-- Static web pages
+- Static multi-page web design
 
 ## Project Structure
 
@@ -42,21 +51,21 @@ BiteBox/
 ├── js/
 ├── assets/
 ├── README.md
-└── about.html
+└── server.js
 ```
 
 ## Pages Included
 
-- Home page: Main landing page with business overview and featured dishes
-- Menu page: Food categories and offerings
-- About page: Story, mission, and brand information
-- Contact page: Business contact and location details
+- Home page: Brand overview, welcome content, featured dishes, and contact details
+- Menu page: Popular dishes, pricing table, food categories, and order steps
+- About page: Story, mission, and business information
+- Contact page: Business details and contact information
 
 ## Getting Started
 
 1. Clone or download the project.
 2. Open the project folder in your browser.
-3. Open any HTML file such as `index.html` to view the website.
+3. Open `index.html` to view the home page, or open any other HTML file for that page.
 
 Example:
 
@@ -67,30 +76,30 @@ start index.html
 
 ## Development Notes
 
-This project is intended for learning and experimentation. It is currently a front-end static website and will be expanded later with more advanced features, cleaner code organization, and additional functionality.
+This is a static learning project. The codebase is intentionally simple and easy to follow so it can be expanded later with responsive design, interactive menu features, cart functionality, and backend integration.
 
 ## Roadmap
 
-- Improve the UI and visual styling
-- Add a responsive mobile-first design
-- Create a dynamic menu with product cards
-- Add cart and ordering interactions
-- Integrate backend APIs or a database
-- Expand to a full-stack web app
+- Improve layout and visual styling
+- Add responsive mobile-first design
+- Expand the menu with more dynamic product cards
+- Add shopping cart and order interactions
+- Connect with backend APIs or a database
+- Grow into a full-stack web application
 
 ## Learning Focus
 
 This project helps practice:
 
 - Semantic HTML structure
-- Page navigation and linking
-- CSS-based layout and styling
-- JavaScript enhancement for interactivity
-- Project organization and documentation
+- Page linking and navigation
+- Content organization and section layout
+- Basic front-end formatting and readability
+- Project documentation and versioned updates
 
 ## License
 
-This project is currently for educational purposes only and may be updated or modified as the project evolves.
+This project is for educational and learning purposes only and may be modified as the project evolves.
 
 ## Author
 
@@ -98,4 +107,4 @@ Built as a learning project for front-end web development practice.
 
 ## Future Note
 
-More functionality and improvements will be added over time as the project grows and becomes more advanced.
+The project is expected to grow with more UI refinements, additional interactivity, and broader functionality over time.
