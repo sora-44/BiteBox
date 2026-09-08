@@ -19,12 +19,94 @@
     </p>
 
     <h2>
-        <a href="https://sora-44.github.io/BiteBox/" target="_blank">
-            Visit Our Website
-        </a></h2>
+      <a href="https://sora-44.github.io/BiteBox/" target="_blank">
+        Visit Our Website
+      </a>
+    </h2>
 
     <p>
       <a href="https://www.google.com" target="_blank">Visite Google</a>
     </p>
+    <hr />
+
+    <!-- Customer Registration and order form -->
+     
+    <h2>Customer Registration and order form</h2>
+    <form action="" method="post">
+      <h3> Customer Information</h3>
+      <label for="fullname">Full Name</label>
+      <br>
+      <input type="text" id="fullname" name="fullname">
+      <br> <br>
+
+      <label for="email">Email</label>
+      <br>
+      <input type="email" id="email" name="email">
+      <br> <br>
+
+      <label for="password" >Password</label>
+      <br>
+      <input type="password" id="password" name="password">
+      <br> <br>
+
+      <label for="phone">Phone Number</label>
+      <br>
+      <input type="tel" id="phone" name="phone">
+      <br> <br>
+
+      <h3> Order Information</h3>
+      <lable for="Quantity">Quantity</lable>
+      <br>
+      <input type="number" id="Quantity" name="Quantity">
+      <br> <br>
+
+      <label for="deliveryDate">Delivery Date</label>
+      <br>
+      <input type="date" id="deliveryDate" name="deliveryDate">
+      <br> <br>
+
+      <label for="foodItem">Select Food Item</label>
+      <br>
+      <select name="foodItem" id="foodItem">
+        <option value="pizza">Pizza</option>
+        <option value="burger">Burger</option>
+        <option value="pasta">Pasta</option>
+        <option value="salad">Salad</option>
+        <option value="dessert">Dessert</option>
+      </select>
+      <br> <br>
+
+      <h3> Payment Method</h3>
+      <input type="radio" id="cash" name="paymentMethod" value="cash">
+      <label for="cash">Cash</label>
+      <br>
+      <input type="radio" id="card" name="paymentMethod" value="card">
+      <label for="card">Card</label>
+      <br> 
+      <input type="radio" id="UPI" name="paymentMethod" value="UPI">
+      <label for="UPI">UPI</label>
+      <br> <br>
+
+      <h3>Extras (Optional)</h3>
+      <input type="checkbox" id="extraCheese" name="extraCheese">
+      <label for="Extra cheese">Extra Cheese</label>
+      <br>
+      <input type="checkbox" id="ColdDrink" name="extraColdDrink">
+      <label for="Extra Cold Drink">Extra Cold Drink</label>
+      <br>
+      <input type="checkbox" id="Deserts" name="extraDeserts">
+      <label for="Extra Desserts">Extra Desserts</label>
+      <br>
+
+      <h3>Delivery Instructions</h3>
+      <label for="deliveryAdress">Delivery Address</label>
+      <br>
+      <textarea id="deliveryAdress" name="deliveryAdress" rows="4" cols="50"></textarea>
+      <br> <br>
+
+      <input type="submit" value="Place Order"> 
+      <input type="reset" value="clear form">
+
+    </form>
   </body>
 </html>
