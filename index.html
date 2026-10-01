@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>BiteBox</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family
+    =Montserrat:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@300;
+    400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Restaurant Name -->
@@ -21,21 +29,24 @@
         <a href="./about.html">About</a>
         |
         <a href="./contact.html">Contact</a>
+        |
+        <a href="./cart.html">Cart</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>Delicious Food Delivered At Your Doorstep</h1>
+      <section id="home-hero">
+        <h1>Delicious Food Delivered At Your <span> Doorstep </span></h1>
 
         <p>
           Fresh ingredients, delicious recipes, and fast delivery — all in one
           place.
         </p>
 
-        <a href="menu.html">Order Now</a>
-        |
-        <a href="menu.html">Explore Menu</a>
+        <div class="hero-buttons">
+          <a class="order-btn" href="./menu.html">Order Now</a>
+          <a class="menu-btn" href="./menu.html">Explore Menu</a>
+        </div>
       </section>
 
       <hr />
@@ -95,7 +106,6 @@
     </main>
 
     <hr />
-
 
     <!-- Today's Featured Dishes Section -->
     <section id="popular-dishes">
