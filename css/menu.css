@@ -30,27 +30,232 @@
   margin: 0 auto 35px;
 }
 
+/* Browse Categories Section */
+
 #categories {
   background-color: #ffffff;
-  padding: 60px 80px;
+  padding: 60px 30px;
   text-align: center;
 }
 
+/* Section Heading */
 #categories h2 {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 700;
   color: #222222;
-  margin-bottom: 50px;
-  position: relative;
+  margin-bottom: 45px;
+}
+
+#categories h2 span {
   display: inline-block;
+  width: 70px;
+  height: 3px;
+  background: #ff3b30;
+  vertical-align: middle;
+  margin: 10px 50px;
+  position: relative;
 }
 
-#categories img {
+#categories h2 span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #ff3b30;
   border-radius: 50%;
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 10px;
+  position: absolute;
+  top: -2px;
 }
 
+#categories h2 span:first-child::before {
+  right: -12px;
+}
+
+#categories h2 span:last-child::before {
+  left: -12px;
+}
+
+/* Categories Container */
+#categories div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+/* Category Item */
 #categories article {
-  margin-bottom: 30px;
+  text-align: center;
+}
+
+#categories article img {
+  width: 100px;
+  height: 90px;
+  padding: 10px;
+  background: #ffffff;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  margin-bottom: 15px;
+}
+
+/* Category Name */
+
+#categories article h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Hover Effect */
+
+#categories article img:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+#menu-items {
+  background: #ffffff;
+  padding: 60px 25px;
+  text-align: center;
+}
+
+/* Section Heading */
+
+#menu-items h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 40px;
+}
+
+#menu-items h2 span {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background: #ff3b30;
+  margin: 0 15px;
+  position: relative;
+  vertical-align: middle;
+}
+
+#menu-items h2 span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #ff3b30;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+}
+
+#menu-items h2 span:first-child::before {
+  right: -12px;
+}
+
+#menu-items h2 span:last-child::before {
+  left: -12px;
+}
+
+/* Menu Items Container */
+
+#menu-items > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+/* Menu Item Card */
+
+#menu-items article {
+  width: 235px;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+  margin: 10px;
+}
+
+/* Badge */
+
+.tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #e53935;
+  color: #ffffff;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.spicy {
+  background: #ff5722;
+}
+
+/* Food Image */
+
+#menu-items article img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Food Name */
+
+#menu-items article h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333333;
+  margin: 10px;
+}
+
+/* Rating */
+
+.rating {
+  margin: 0 10px 8px;
+  color: #f5b301;
+  font-size: 15px;
+}
+
+.rating small {
+  color: #666666;
+  font-size: 12px;
+}
+
+.price {
+  margin: 0 10px 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+}
+#menu-items article button {
+  width: calc(100% - 20px);
+  margin: 0 10px 12px;
+  padding: 9px 0;
+  background: #ffffff;
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#menu-items article button img{
+    width:14px;
+    height:14px;
+}
+
+#menu-items article:hover{
+    box-shadow:0 8px 18px rgba(0,0,0,0.18);
 }
