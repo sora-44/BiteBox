@@ -1,0 +1,45 @@
+/* Contact Us hero */
+
+#contact-hero {
+  background-image: url("../assets/images/contact-hero.png");
+  background-repeat: no-repeat;
+  background-position: 100% 80%;
+  background-size: cover;
+  height: 320px;
+  padding: 60px 80px;
+  text-align: left;
+}
+
+#contact-hero h2 {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#contact-hero h2 span {
+  color: #ff6b00;
+}
+
+#contact-hero h3 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#contact-hero hr {
+  width: 70px;
+  height: 4px;
+  background-color: #ff6b00;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+#contact-hero p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  width: 460px;
+}

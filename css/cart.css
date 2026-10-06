@@ -1,0 +1,64 @@
+/* Cart Hero */
+
+#cart-hero {
+  height: 320px;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+#cart-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-image: none;
+}
+
+#cart-hero::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  background: url("../assets/images/cart-hero.png") center / cover no-repeat;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+#cart-hero h1 {
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-size: 58px;
+  font-weight: 400;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.divider {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.divider hr {
+  display: inline-block;
+  width: 120px;
+  height: 3px;
+  background-color: #ff6b00;
+  border: none;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.divider img {
+  width: 34px;
+  height: 34px;
+  margin: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#cart-hero p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  width: 720px;
+  margin: 0 auto;
+}

@@ -1,0 +1,43 @@
+/* About Hero */
+
+#about-hero {
+  background-image: url("../assets/images/about-hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+  padding: 60px 80px;
+  text-align: left;
+}
+
+#about-hero h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 10px;
+}
+
+#about-hero h2 span {
+  font-family: "Allura", cursive;
+  color: #ff6b00;
+  font-size: 62px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+#about-hero p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+#about-hero hr {
+  width: 45px;
+  height: 3px;
+  background-color: #ff6b00;
+  border: none;
+  border-radius: 20px;
+}
