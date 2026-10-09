@@ -9,9 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family
-    =Montserrat:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@300;
-    400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700;800&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -24,169 +22,250 @@
   </head>
   <body>
     <header>
-      <section id="cart-hero">
-        <h1>Your Shopping Cart</h1>
-        <div class="divider">
-          <hr />
-          <img
-            src="./assets/icons/fork-spoon.png"
-            width="50px"
-            alt="Fork and Spoon"
-          />
-          <hr />
-        </div>
-        <p>
-          Review your selected food items before proceeding to checkout.
-          <br />
-          Update quantities, remove items, and confirm your order with ease.
-        </p>
-      </section>
+      <img src="./assets/images/logo.png" alt="BiteBox Logo" class="logo" />
+
+      <!-- Navigation Bar -->
+      <nav>
+        <a href="./index.html">Home</a>
+        |
+        <a href="./menu.html">Menu</a>
+        |
+        <a href="./about.html">About</a>
+        |
+        <a href="./contact.html">Contact</a>
+        |
+        <a href="./cart.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+            />
+          </svg>
+        </a>
+      </nav>
     </header>
 
-    <main>
-      <section id="shopping-cart">
-        <table>
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th>Total</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <!-- Item 1 -->
-            <tr>
-              <td>
-                <img
-                  src="./assets/images/pasta.png"
-                  alt="Margherita Pizza"
-                  width="80"
-                />
-                <h3>Margherita Pizza</h3>
-                <p>Classic delight with fresh cheese & basil.</p>
-              </td>
-              <td>₹249</td>
-              Create a Shopping Cart section that displays the food items
-              selected by the customer. 2 12
-              <td>
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-              </td>
-              <td>₹249</td>
-              <td>
-                <a href="#">
-                  <img src="./assets/icons/delete.png" width="25" />
-                </a>
-              </td>
-            </tr>
-
-            <!-- Item 2 -->
-
-            <tr>
-              <td>
-                <img src="assets/images/burger.png" width="80" />
-                <h3>Cheese Burger</h3>
-                <p>Juicy grilled burger with cheese & veggies.</p>
-              </td>
-              <td>₹189</td>
-              <td>
-                <button>-</button>
-                <span>2</span>
-                <button>+</button>
-              </td>
-              <td>₹378</td>
-              <td>
-                <a href="#">
-                  <img src="./assets/icons/delete.png" width="25"
-                /></a>
-              </td>
-            </tr>
-            13
-            <!-- Item 3 -->
-
-            <tr>
-              <td>
-                <img
-                  src="./assets/images/pasta.png"
-                  alt="Creamy Pasta"
-                  width="80"
-                />
-                <h3>Creamy Pasta</h3>
-                <p>Delicious white sauce pasta with herbs.</p>
-              </td>
-              <td>₹199</td>
-              <td>
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-              </td>
-              <td>₹199</td>
-              <td>
-                <a href="#">
-                  <img src="./assets/icons/delete.png" width="25" />
-                </a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
-      <aside id="order-summary">
-        <h2>Order Summary</h2>
-
-        <p><span>Subtotal (3 Items)</span> <span>₹826.00</span></p>
-
-        <p><span>Delivery Charges</span> <span>₹40.00</span></p>
-
-        <p><span>Packaging Charges</span> <span>₹20.00</span></p>
-
+    <section id="cart-hero">
+      <h1>Your Shopping Cart</h1>
+      <div class="divider">
         <hr />
-        <h3><span>Total Amount</span> <span>₹886.00</span></h3>
+        <img
+          src="./assets/icons/fork-spoon.png"
+          width="50px"
+          alt="Fork and Spoon"
+        />
+        <hr />
+      </div>
+      <p>
+        Review your selected food items before proceeding to checkout.
+        <br />
+        Update quantities, remove items, and confirm your order with ease.
+      </p>
+    </section>
 
-        <button type="button">Proceed to Checkout</button>
-        <p>
-          <img src="./assets/icons/shield.png" width="18" height="18" /> Secure
-          Checkout
-        </p>
-      </aside>
+    <main>
+      <div id="cart-details">
+        <section id="shopping-cart">
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <!-- Item 1 -->
+              <tr>
+                <td>
+                  <div class="cart-item">
+                    <img
+                      src="./assets/images/pizza.png"
+                      alt="Margherita Pizza"
+                      width="80"
+                    />
+                    <div>
+                      <h3>Margherita Pizza</h3>
+                      <p>Classic delight with fresh cheese & basil.</p>
+                    </div>
+                  </div>
+                </td>
+                <td>₹249</td>
+                <td>
+                  <div class="quantity-box">
+                    <button
+                      type="button"
+                      aria-label="Decrease Margherita Pizza quantity"
+                    >
+                      -
+                    </button>
+                    <span>1</span>
+                    <button
+                      type="button"
+                      aria-label="Increase Margherita Pizza quantity"
+                    >
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td>₹249</td>
+                <td>
+                  <a href="#">
+                    <img
+                      src="./assets/icons/delete.png"
+                      alt="Delete Margherita Pizza"
+                      width="25"
+                    />
+                  </a>
+                </td>
+              </tr>
+
+              <!-- Item 2 -->
+
+              <tr>
+                <td>
+                  <div class="cart-item">
+                    <img
+                      src="./assets/images/burger.png"
+                      alt="Cheese Burger"
+                      width="80"
+                    />
+                    <div>
+                      <h3>Cheese Burger</h3>
+                      <p>Juicy grilled burger with cheese &amp; veggies.</p>
+                    </div>
+                  </div>
+                </td>
+                <td>₹189</td>
+                <td>
+                  <div class="quantity-box">
+                    <button
+                      type="button"
+                      aria-label="Decrease Cheese Burger quantity"
+                    >
+                      -
+                    </button>
+                    <span>2</span>
+                    <button
+                      type="button"
+                      aria-label="Increase Cheese Burger quantity"
+                    >
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td>₹378</td>
+                <td>
+                  <a href="#">
+                    <img
+                      src="./assets/icons/delete.png"
+                      alt="Delete Cheese Burger"
+                      width="25"
+                    />
+                  </a>
+                </td>
+              </tr>
+              <!-- Item 3 -->
+
+              <tr>
+                <td>
+                  <div class="cart-item">
+                    <img
+                      src="./assets/images/pasta.png"
+                      alt="Creamy Pasta"
+                      width="80"
+                    />
+                    <div>
+                      <h3>Creamy Pasta</h3>
+                      <p>Delicious white sauce pasta with herbs.</p>
+                    </div>
+                  </div>
+                </td>
+                <td>₹199</td>
+                <td>
+                  <div class="quantity-box">
+                    <button
+                      type="button"
+                      aria-label="Decrease Creamy Pasta quantity"
+                    >
+                      -
+                    </button>
+                    <span>1</span>
+                    <button
+                      type="button"
+                      aria-label="Increase Creamy Pasta quantity"
+                    >
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td>₹199</td>
+                <td>
+                  <a href="#">
+                    <img
+                      src="./assets/icons/delete.png"
+                      alt="Delete Creamy Pasta"
+                      width="25"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <aside id="order-summary">
+          <h2>Order Summary</h2>
+
+          <p><span>Subtotal (3 Items)</span> <span>₹826.00</span></p>
+
+          <p><span>Delivery Charges</span> <span>₹40.00</span></p>
+
+          <p><span>Packaging Charges</span> <span>₹20.00</span></p>
+
+          <hr />
+          <h3><span>Total Amount</span> <span>₹886.00</span></h3>
+
+          <button type="button">Proceed to Checkout</button>
+          <p><i class="fa-solid fa-shield-check"></i> Secure Checkout</p>
+        </aside>
+      </div>
 
       <!-- Cart Action Buttons -->
 
       <section id="cart-actions">
         <a href="menu.html">
-          <img src="assets/icons/left-arrow.png" width="18" height="18" />
-          Continue Shopping
+          <i class="fa-solid fa-arrow-left"></i> Continue Shopping
         </a>
 
         <button type="button">
-          <img src="assets/icons/delete.png" width="18" height="18" /> Clear
+          <img src="./assets/icons/delete.png" width="18" height="18" /> Clear
           Cart
         </button>
       </section>
     </main>
 
     <footer>
+      <div class="footer-container">
       <section>
-        <img src="./assets/images/logo2.png" alt="BiteBox Logo" width="180" />
+        <img src="./assets/images/logo.png" alt="BiteBox Logo" width="180" />
         <p>Delicious food delivered to your doorstep. Fresh, fast and tasty!</p>
-        <a href="#">
-          <img src="./assets/icons/facebook.png" alt="Facebook" width="30" />
-        </a>
-        <a href="#">
-          <img src="./assets/icons/twitter.png" alt="Twitter" width="30" />
-        </a>
-        <a href="#">
-          <img src="./assets/icons/instagram.png" alt="Instagram" width="30" />
-        </a>
-        <a href="#">
-          <img src="./assets/icons/youtube.png" alt="Youtube" width="30" />
-        </a>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+        </div>
       </section>
-      <hr />
       <!-- Quick Links -->
       <section>
         <h3>Quick Links</h3>
@@ -198,7 +277,6 @@
           <li><a href="cart.html">Cart</a></li>
         </ul>
       </section>
-      <hr />
 
       <!-- Customer Service -->
       <section>
@@ -212,29 +290,26 @@
         </ul>
       </section>
 
-      <hr />
-
       <!-- Contact Information -->
       <section>
         <h3>Contact Us</h3>
-        <p>📞 +91 98765 43210</p>
-        <p>✉ support@bitebox.com</p>
-        <p>📍 123 Food Street, Mumbai, Maharashtra 400001</p>
+        <p><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 98765 43210</p>
+        <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> support@bitebox.com</p>
+        <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> 123 Food Street, Mumbai, Maharashtra 400001</p>
       </section>
-
-      <hr />
 
       <!-- Payment Methods -->
       <section>
         <h3>Payment Methods</h3>
-        <img src="./assets/images/visa.png" alt="Visa" width="60" />
-        <img src="./assets/images/mastercard.png" alt="MasterCard" width="60" />
-        <img src="./assets/images/upi.png" alt="UPI" width="60" />
-        <img src="./assets/images/paytm.png" alt="Paytm" width="60" />
+        <div class="payment-icons">
+          <span aria-label="Visa"><i class="fa-brands fa-cc-visa" aria-hidden="true"></i></span>
+          <span aria-label="Mastercard"><i class="fa-brands fa-cc-mastercard" aria-hidden="true"></i></span>
+          <span aria-label="UPI"><i class="fa-solid fa-qrcode" aria-hidden="true"></i> UPI</span>
+          <span aria-label="Paytm"><i class="fa-solid fa-wallet" aria-hidden="true"></i> Paytm</span>
+        </div>
       </section>
-
-      <hr />
-      <p>© 2026 BiteBox. All Rights Reserved.</p>
+      </div>
+      <p class="footer-copyright">© 2026 BiteBox. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
